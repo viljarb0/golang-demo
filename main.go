@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/viljarb0/golang-demo/somemodule"
+	"github.com/viljarb0/golangdemo/somemodule"
 	"golang.org/x/crypto/bcrypt"
 )
 
