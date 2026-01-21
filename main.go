@@ -9,6 +9,7 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/viljarb/golang-demo/somemodule"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -52,6 +53,7 @@ func main() {
 	var password string = fmt.Sprintf("%s%s123", u1.name, strconv.Itoa(u1.age))
 	fmt.Println(password)
 
+	somemodule.Secondfunc()
 	// for _ := 0;; {
 	// nil
 	// }

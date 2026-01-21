@@ -1,7 +1,7 @@
-package main
+package somemodule
 
 import "fmt"
 
-func secondfunc() {
+func Secondfunc() {
 	fmt.Println("second function here")
 }
