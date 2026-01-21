@@ -1,4 +1,4 @@
-module demo
+module golang-demo
 
 go 1.24.0
 
